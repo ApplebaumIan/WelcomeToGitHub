@@ -25,7 +25,7 @@ final class WelcomeToGitHubTests: XCTestCase {
 	
 	func testSquaring(){
 		let squared = QuickMaths().squared(12)
-		XCTAssertEqual(squared,144,"I'm no mathmatician but \(squared) is not 12^2")
+		XCTAssertEqual(squared,144,"I'm no mathematician but \(squared) is not 12^2")
 	}
 	
     static var allTests = [
