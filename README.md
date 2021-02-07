@@ -16,8 +16,10 @@ I've given you Admin permission to this project. This means that you can setup p
 ## Your team's task
 1. Add a development branch
 2. Protect the main branch
-3. Fix a basic math function and create a pull request with the associated Rally task name merging to the development branch
-4. Finally merge development branch with the main branch
+3. Identify each of the issues in [`QuickMaths.swift`](Sources/WelcomeToGitHub/QuickMaths.swift)
+4. Assign each team member an issue to fix.
+5. Each team member will open a unique pull request to the `development` branch resolving the specified Rally issue. 
+6. Finally merge development branch with the main branch
 
 There are 4 pieces of code broken in [`Sources/WelcomeToGitHub/QuickMaths.swift`](Sources/WelcomeToGitHub/QuickMaths.swift) I promise it's obvious... Your team's task is to open a pull request fixing each feature! Your team should follow this process:
 
