@@ -22,11 +22,18 @@ final class WelcomeToGitHubTests: XCTestCase {
 		let quotient = QuickMaths().divide(10, 2)
 		XCTAssertEqual(quotient, 5, "I've run out of \"clever\" jokes... 10 ÷ 2 should be 5...")
 	}
+	
+	func testSquaring(){
+		let squared = QuickMaths().squared(12)
+		XCTAssertEqual(squared,144,"I'm no mathmatician but \(squared) is not 12^2")
+	}
+	
     static var allTests = [
 		("testAdd", testAdd),
 		("testSubtraction", testSubtraction),
 		("testMultiplication", testMultiplication),
-		("testDivision", testDivision)
+		("testDivision", testDivision),
+		("testSquaring",testSquaring)
     ]
 }
 

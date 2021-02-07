@@ -45,6 +45,13 @@ struct QuickMaths {
 	func divide(_ lhs:Int, _ rhs:Int ) -> Int {
 		return 6
 	}
+	
+	/// Returns the number to the second power (number^2).
+	/// - Parameter number: The number to be squared.
+	/// - Returns: the number squared as an Int.
+	func squared(_ number: Int) -> Int {
+		return 24
+	}
 }
 /*
                            Z
