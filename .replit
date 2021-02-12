@@ -1,1 +1,2 @@
-run = "swift test | grep -e passed -e failed | sed  's#failed#\\x1b[31m&#; s#passed#\\x1b[32m&#; s#Test\\ Case#\\x1b[37m&#; s#Test\\ Suite#\\x1b[37m&#'"
+run = "echo Starting tests. Please wait.; swift test | grep -e passed -e failed | sed  's#failed#\\x1b[31m&#; s#passed#\\x1b[32m&#; s#Test\\ Case#\\x1b[37m&#; s#Test\\ Suite#\\x1b[37m&#'"
+language="swift"
