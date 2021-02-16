@@ -41,11 +41,8 @@ Since not all of us have a Mac or the patience to set up the Swift compiler on L
 
 Everything to start with in [QuickMaths.swift](Sources/WelcomeToGitHub/QuickMaths.swift) is **broken**... There is no logic associated to the functions they just return a constant number... Obviously your team has to change this. (Hint Swift's math operators are `+` `-` `*` and `/`)
 
-This is what Repl.it will look like when you first click the `Run` button
+This is what Repl.it will look like when you first click the `Run` button:
+![PassingTestsInREPL](PassingTestsInREPL.png)
+
+If your changes do not meet the test's requirements you will see a message like this:
 ![FailedTestsInREPL](FailedTestsInREPL.png)
-
-Notice the `XCTAssertEqual failed: ("42") is not equal to ("4") - Big Shaq may have something to say about this. 2+2 is 4.`
-
-When you correct this function it will say:
-`Test Case 'WelcomeToGitHubTests.testAdd' passed (0.0 seconds)`
-
