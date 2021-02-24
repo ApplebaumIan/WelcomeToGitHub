@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WelcomeToGitHub  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="WelcomeToGitHub  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">WelcomeToGitHub Docs</a> (83% documented)</p>
+        <p class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">WelcomeToGitHub Reference</a>
+        <img id="carat" src="img/carat.png" />
+        WelcomeToGitHub  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/QuickMaths.html">QuickMaths</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p><img src="../../workflows/Swift/badge.svg" alt="Swift"></p>
+<h1 id='hello-cis-capstone' class='heading'>Hello CIS Capstone!</h1>
+
+<p>Welcome to GitHub!
+In this assignment we will be working through the bulk of the features of GitHub that you will be using throughout your project&rsquo;s development. </p>
+
+<ul>
+<li>Pull Requests</li>
+<li>Code Review</li>
+<li>CI/CD</li>
+</ul>
+
+<p>This assignment will also give you early exposure to connecting your code related activities to a project management software. </p>
+<h2 id='initial-github-repository-setup' class='heading'>Initial GitHub Repository Setup</h2>
+
+<p>I&rsquo;ve given you Admin permission to this project. This means that you can setup protected branches. Let&rsquo;s make sure to setup main as a protected branch. I&rsquo;ve provided a GitHub Action that will provide test results to each Pull Request. Make sure this is enabled. </p>
+<h2 id='your-team-39-s-task' class='heading'>Your team&rsquo;s task</h2>
+
+<ol>
+<li>Create a development branch</li>
+<li><a href="https://docs.github.com/en/github/administering-a-repository/about-protected-branches#require-pull-request-reviews-before-merging">Protect the main branch</a></li>
+<li>Identify each of the issues in <a href="Sources/WelcomeToGitHub/QuickMaths.swift"><code>QuickMaths.swift</code></a></li>
+<li>Assign each team member an issue to fix.</li>
+<li>Each team member will open a unique pull request to the <code>development</code> branch resolving the specified Rally issue.</li>
+<li>Finally merge the <code>development</code> branch into the <code>main</code> branch.</li>
+</ol>
+
+<p>There are 4 pieces of code broken in <a href="Sources/WelcomeToGitHub/QuickMaths.swift"><code>Sources/WelcomeToGitHub/QuickMaths.swift</code></a> I promise it&rsquo;s obvious&hellip; Your team&rsquo;s task is to open a pull request fixing each feature! Your team should follow this process:</p>
+
+<p><img src="CodeReviewProcess.png" alt="Code Review"></p>
+
+<p>For this assignment we have 4 features on our hypothical Rally project. Since the main branch is protected you will need to merge your feature changes to the development branch first. Then when all the tests pass, merge development into main. </p>
+<h3 id='brief-introduction-to-working-with-a-project-management-tool' class='heading'>Brief introduction to working with a project management tool</h3>
+
+<p>There are many project management tools out there. Rally, Jira, and Trello are among this crowd. For this hypothetical scenario we will have a fake Rally project. In this project let&rsquo;s say we have a user Story &ldquo;Math Feature&rdquo; with the following tasks:</p>
+
+<p><img src="RallyTasks.png" alt="Tasks"></p>
+
+<p>You are to hypothetically close these Rally tasks with Pull Requests upon completion. (1 pull request per task.) <strong>We will not actually be interacting with Rally or any project management tools for this assignment this is just a hypothetical</strong> </p>
+<h2 id='swift-code' class='heading'>Swift Code</h2>
+
+<p>Since not all of us have a Mac or the patience to set up the Swift compiler on Linux or Windows (yes as of <a href="https://swift.org/blog/swift-5-3-released/">Swift 5.3</a> Windows is supported) Let&rsquo;s use the online IDE Repl.it</p>
+
+<p>Everything to start with in <a href="Sources/WelcomeToGitHub/QuickMaths.swift">QuickMaths.swift</a> is <strong>broken</strong>&hellip; There is no logic associated to the functions they just return a constant number&hellip; Obviously your team has to change this. (Hint Swift&rsquo;s math operators are <code>+</code> <code>-</code> <code>*</code> and <code>/</code>)</p>
+
+<p>This is what Repl.it will look like when you first click the <code>Run</code> button:
+<img src="PassingTestsInREPL.png" alt="PassingTestsInREPL"></p>
+
+<p>If your changes do not meet the test&rsquo;s requirements you will see a message like this:
+<img src="FailedTestsInREPL.png" alt="FailedTestsInREPL"></p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-02-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

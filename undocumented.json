@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ianapplebaum/Documents/github/WelcomeToGitHub/Sources/WelcomeToGitHub/QuickMaths.swift",
+      "line": 12,
+      "symbol": "QuickMaths",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ianapplebaum/Documents/github/WelcomeToGitHub"
+}
