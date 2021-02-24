@@ -16,5 +16,7 @@
       <true/>
     <key>DashDocSetFamily</key>
       <string>dashtoc</string>
+    <key>DashDocSetFallbackURL</key>
+      <string>https://applebaumian.github.io/WelcomeToGitHub/</string>
   </dict>
 </plist>
